@@ -1,0 +1,509 @@
+@font-face {
+    font-family: 'baumansregular';
+    src: url(../font/baumans-regular-webfont.woff2) format('woff2'), url(../font/baumans-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'josefinsans';
+    src: url(../font/JosefinSans-VariableFont_wght.ttf) format('woff2'), url(../font/JosefinSans-Italic-VariableFont_wght.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museomoderno';
+    src: url(../font/MuseoModerno-VariableFont_wght.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: rgb(51 51 51);
+}
+
+nav {}
+
+header {
+    position: fixed;
+    background-color: rgb(48, 46, 46);
+    margin-right: 20px;
+    z-index: 2;
+}
+
+body {
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.tabbar_header {}
+
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #fff;
+    display: flex;
+}
+
+.avatar_box {
+    background-color: rgb(48, 46, 46);
+    width: 30%;
+    display: flex;
+}
+
+.avatar_text {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: baumansregular;
+    color: white;
+}
+
+.text_link {
+    font: 24px/18px Tahoma;
+    color: white;
+    position: relative;
+    transition: all 0.3s;
+    text-decoration: none;
+    font-family: baumansregular;
+}
+
+#text_avatar {
+    font-style: italic;
+    font-family: baumansregular;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+#avatar {
+    width: 23%;
+    margin-left: 20px;
+    margin: 5px;
+    transition: all 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1.1);
+}
+
+.menu {
+    display: flex;
+    background-color: rgb(48, 46, 46);
+    width: 70%;
+    justify-content: flex-end;
+}
+
+.icon_menu {
+    flex-grow: 1;
+    background-color: rgb(48, 46, 46);
+    margin: 2px;
+}
+
+.backgroud_header {
+    background-color: rgb(48, 46, 46);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/z1703213464373_3744a964786bce280c2430f63ae99b3a.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroud_name {
+    color: white;
+    font-size: 50px;
+    font-family: josefinsans;
+    font-weight: lighter;
+}
+
+.backgroud_text {
+    color: white;
+    font-size: 40px;
+    width: 800px;
+    height: auto;
+    text-align: center;
+    font-family: museomoderno;
+    font-weight: 900;
+}
+
+.backgroud_address {
+    color: white;
+    font-size: 30px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    font-family: museomoderno;
+}
+
+.icon_link {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    background-color: rgb(48, 46, 46);
+    color: white;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: baumansregular;
+}
+
+.detail_box {
+    background-color: rgb(51 51 51);
+    display: flex;
+}
+
+.text_detail_box {
+    flex-grow: 1;
+    width: 50%;
+    background-color: rgb(48, 46, 46);
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.text_detail_box_img {
+    flex-grow: 1;
+    width: 50%;
+    background-color: rgb(48, 46, 46);
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+    background: url(../images/Mystical.jpg);
+    background-size: cover;
+}
+
+.border_box {
+    padding: 10px;
+    border: 1px solid rgb(129, 128, 128);
+    margin: 5px;
+}
+
+.border_box:hover {
+    border: 1px solid rgb(189, 188, 188);
+}
+
+.border_box_img {
+    margin: 4px;
+    border: 10px;
+    height: 98.5%;
+    width: 98.5%;
+    border-color: rgb(189, 188, 188);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.border_box_img:hover {
+    border: 1px solid white;
+}
+
+.big_text {
+    font-family: baumansregular;
+    font-size: 50px;
+    color: white;
+    margin: 70px;
+}
+
+.smail_text {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 70px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.nameservice {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 46, 46);
+}
+
+#namemysterart {
+    font-size: 50px;
+    font-family: museomoderno;
+    color: white;
+}
+
+.service {
+    display: flex;
+    background-color: rgb(51 51 51);
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box_service {
+    width: 32.5%;
+    height: auto;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    padding: 0px;
+    border: 0px;
+    outline: none;
+}
+
+.effect_box_hover {
+    border: 2px solid rgb(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    width: 99%;
+    height: 99%;
+}
+
+.service_img {
+    height: 300px;
+    width: auto;
+    /* background: url("../images/chup-anh-cuoi-indoor-1-600x600.jpg"); */
+    margin: 0px;
+    padding: 5px;
+    transition: all 0.5s;
+    background-size: 110%;
+    background-position: center;
+}
+
+
+/* hover ảnh dịch vụ  */
+
+.service_img:hover {
+    transition: all 0.5s;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.effect_box {
+    border: 30px solid rgb(255, 255, 255, 0.3);
+    width: 85.5%;
+    height: 80%;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+.effect_small {
+    border: 10px solid white;
+    margin: 1px;
+    width: 93.7%;
+    height: 91%;
+}
+
+.conlecctioon_component {
+    margin-top: 30px;
+    border: 1px solid rgb(129, 128, 128);
+    width: 100%;
+    height: 1200px;
+}
+
+.conlecctioon_component:hover {
+    border: 1px solid rgb(189, 188, 188);
+}
+
+.colecction_text {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(51 51 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colection {
+    display: flex;
+    background-color: rgb(51 51 51);
+    justify-content: center;
+    float: left;
+    margin: 5px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#colecction_name {
+    font-family: museomoderno;
+    color: white;
+    font-size: 60px;
+}
+
+.colection_column1 {
+    width: 31%;
+    justify-content: center;
+    margin: 10px;
+}
+
+.colection_column2 {
+    width: 31%;
+    justify-content: center;
+    margin: 10px;
+}
+
+.colection_column3 {
+    width: 31%;
+    justify-content: center;
+    margin: 10px;
+}
+
+.colection_box {
+    width: 100%;
+    background-color: #666;
+    margin-top: 50px;
+    height: min-content;
+    outline: none;
+    padding: 0px;
+    border: none;
+    text-shadow: none;
+    cursor: crosshair;
+    border-radius: 8px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s;
+}
+
+.colection_box:hover {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.19);
+    transform: translate(0px, -10px);
+}
+
+.conlection_img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.blog_text {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(48, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog_name {
+    font-family: museomoderno;
+    font-size: 60px;
+    color: white;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(48, 46, 46);
+}
+
+.blog_column {
+    width: 31%;
+}
+
+.blog_box {
+    border: none;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 0%;
+    outline: none;
+    background-color: #666;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s;
+}
+
+.blog_box:hover {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.19);
+    transform: translate(0px, -10px);
+    cursor: pointer;
+}
+
+.blog_img {
+    width: 100%;
+    height: 20%;
+    border-radius: 15px;
+}
+
+.img {
+    height: 250px;
+    background: url("../images/chup-anh-indoor.jpg");
+    background-size: cover;
+    width: 100%;
+    background-position-x: center;
+    background-position-y: top;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.menutora {
+    margin-top: 30px;
+    transition: 1s;
+}
+
+#googlemap {
+    margin: 70px;
+    margin-top: 20px;
+}
+
+.text_contast_box {
+    flex-grow: 1;
+    width: 50%;
+    background-color: rgb(88, 87, 87);
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.text_write_us {
+    flex-grow: 1;
+    width: 50%;
+    background-color: rgb(88, 87, 87);
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.write_box {
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+}
+
+.write_component {}
+
+.border_write_box {
+    margin: 4px;
+    border: 10px;
+    height: 98.8%;
+    width: 98.5%;
+    border-color: rgb(189, 188, 188);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.border_write_box:hover {
+    border: 1px solid white;
+}
+
+.input_text {
+    background-color: rgb(122, 121, 121);
+    border: 1px solid rgb(182, 179, 179);
+    border-radius: 25px;
+    height: 45px;
+    width: 200px;
+    margin: 10px;
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 33, 33);
+}
+
+::placeholder {
+    color: #fff;
+    padding-left: 20px;
+    font-style: oblique;
+    font-size: 15px;
+}
